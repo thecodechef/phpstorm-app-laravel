@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>bulma</id>
+    <version>0.9.4</version>
+    <title>Bulma CSS</title>
+    <authors>Jeremy Thomas</authors>
+    <owners>bulma</owners>
+    <description>Bulma is a free, open source CSS framework based on Flexbox and built with Sass. It's 100% responsive, fully modular, and available for free."</description>
+    <releaseNotes>http://github.com/jgthms/bulma/releases</releaseNotes>
+    <summary>Modern CSS framework based on Flexbox</summary>
+    <language>en-us</language>
+    <projectUrl>https://bulma.io</projectUrl>
+    <repository type="" url="http://github.com/jgthms/bulma.git" branch="master" />
+    <icon>bulma-icon.png</icon>
+    <license type="expression">MIT</license>
+    <copyright>Copyright 2017-2023</copyright>
+    <requiredLicenseAcceptance>false</requiredLicenseAcceptance>
+    <tags>css sass mobile-first flexbox responsive front-end framework web</tags>
+    <contentFiles>
+      <files include="**/*" buildAction="Content" />
+    </contentFiles>
+    <files>
+  	  <file src="nuget\bulma.png" target="" />
+  	  <file src="css\*.*" target="content\Content" />
+  	  <file src="css\*.*" target="contentFiles\any\wwwroot\css" />
+    </files>
+  </metadata>
+</package>

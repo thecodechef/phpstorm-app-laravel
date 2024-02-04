@@ -1,0 +1,26 @@
+{
+  "name": "bulma/bulma",
+  "description": "Modern CSS framework based on Flexbox",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "keywords": [
+    "css",
+    "sass",
+    "mobile-first",
+    "flexbox",
+    "repsonsive",
+    "front-end",
+    "framework",
+    "web"
+  ],
+  "homepage": "https://bulma.io/",
+  "authors": [
+    {
+      "name": "jeremybolding",
+      "email": "email@example.com"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/jgthms/bulma/issues"
+  }
+}
